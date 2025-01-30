@@ -29,8 +29,7 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           uv pip install marimo
-          uv pip install plotly[express]
-          uv pip install -r requirements.txt
+          uv pip install plotly
 
       - name: 🛠️ Export notebooks
         run: |
